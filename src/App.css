@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  background-image: url("https://i.namu.wiki/i/3ZINHTD8kSc2SNYojOcOb_p_IKRIHq_HPlCERR6pA-n2onc-Y-Z0M4Ck2TQwnY4mXAHpOvsF5-KW4LVjMtgeplWPUtdmk9C2nP4QeOG9whaJCUF-Nox6NQjZS99wJP03FdyP1LOxDkT84efK9LrQeQ.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.App-header {
+  background-image: url("/public/image/pagebackground.jpeg");
+  background-size: auto;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #000300;
+}
