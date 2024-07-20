@@ -1,0 +1,25 @@
+/* 각 비디오 카드에 대한 설정임 */
+.video-list {
+  display: flex; /* 자식 요소들을 가로로 배치 */
+  gap: 10px; /* 선택 사항: 각 비디오 카드 사이의 간격 */
+  background-color: rgb(217, 255, 0);
+  margin-top: 0px;
+  width: 1000px;
+  height: 5000px;
+}
+
+.video-card {
+  display: flex;
+  flex-direction: column; /* 수직 배치를 위해 추가 */
+  align-items: center; /* 선택 사항: 요소를 수직 가운데 정렬 */
+  width: 340px;
+  height: 238px;
+}
+
+.video-info {
+  background-color: rgb(255, 136, 0);
+  width: 100%; /* 선택 사항: 요소의 너비를 부모 요소에 맞춤 */
+  display: flex; /* 선택 사항: 텍스트를 가운데 정렬 */
+  border-radius: 7px;
+  font-size: 25px;
+}

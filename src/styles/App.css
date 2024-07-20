@@ -12,7 +12,6 @@
 }
 
 .App-header {
-  background-image: url("/public/image/pagebackground.jpeg");
   background-size: auto;
   background-position: center;
   min-height: 100vh;
