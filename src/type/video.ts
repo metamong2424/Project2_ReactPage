@@ -1,7 +1,6 @@
 export interface Video {
-  title: string;
+  name: string;
+  position: string;
+  playerNum: number;
   link: string;
-  P_Position?: string;
-  P_No?: string;
-  P_Name?: string;
 }

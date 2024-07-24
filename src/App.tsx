@@ -11,3 +11,6 @@ const App: React.FC = () => {
 };
 
 export default App;
+
+// 컴포넌트에 각각에서 사이즈를 제시.
+// App에서 합쳐도 되고, 라우터를 사용해서 담을 수 있음.

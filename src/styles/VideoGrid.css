@@ -2,9 +2,12 @@
   display: flex;
   flex-wrap: wrap; /* 동영상을 여러 줄에 걸쳐 표시하려면 필요 */
   gap: 20px; /* 동영상 사이의 간격 조정 */
+  justify-content: flex-start; /* 요소들을 수평 가운데 정렬 */
+  align-items: flex-end; /* 요소들을 수직 가운데 정렬 */
+  margin: 0 auto; /* 컨테이너를 가운데로 정렬 */
 }
 
 .video-item {
   width: 300px; /* 동영상 아이템의 너비 설정 */
-  margin-bottom: 20px; /* 필요한 경우 아래 여백 추가 */
+  margin-bottom: 50px; /* 필요한 경우 아래 여백 추가 */
 }

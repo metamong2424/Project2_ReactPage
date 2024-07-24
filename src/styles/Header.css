@@ -10,7 +10,6 @@
   margin: 0; /* 외부 마진 제거 */
   margin-top: 0;
   margin-bottom: 0;
-  width: 1000px; /* 로고 크기를 조정합니다. */
 }
 
 .logo {
@@ -27,7 +26,7 @@
 }
 
 .player-song {
-  background-color: rgb(255, 145, 0);
+  background-color: #ff640a;
   z-index: 15;
   width: 80px;
   height: 40px;
@@ -44,7 +43,7 @@
 }
 
 .team-song {
-  background-color: rgb(255, 145, 0);
+  background-color: #ff640a;
   z-index: 15;
   width: 80px;
   height: 40px;
@@ -61,7 +60,7 @@
 }
 
 .situation-song {
-  background-color: rgb(255, 145, 0);
+  background-color: #ff640a;
   z-index: 15;
   width: 80px;
   height: 40px;

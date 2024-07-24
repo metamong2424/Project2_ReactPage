@@ -1,0 +1,74 @@
+/* Search 컴포넌트의 스타일 정의 */
+
+.search {
+  background-color: #3d3a37;
+  padding: 20px;
+}
+
+.search_Sub {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.array_Name {
+  display: flex;
+  font-size: 20px;
+  background-color: #ff640a;
+  color: #000000;
+  margin-right: 30px;
+  width: 120px;
+  height: 30px;
+  align-items: center;
+  border-radius: 7px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.array_position {
+  display: flex;
+  font-size: 20px;
+  background-color: #ff640a;
+  color: #000000;
+  margin-right: 30px;
+  width: 150px;
+  height: 30px;
+  align-items: center;
+  border-radius: 7px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.searchBar {
+  display: flex;
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-right: 10px;
+  height: 30px;
+}
+
+.search-button {
+  display: flex;
+  padding: 8px 12px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.search-button:hover {
+  background-color: #ff640a;
+  color: #000000;
+}
